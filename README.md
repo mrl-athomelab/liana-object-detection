@@ -7,6 +7,6 @@ and install the API before using this package.
 
 usage:
 
-rosrun saam_object_detection what_am_i_looking_at_server.py
+rosrun liana_object_detection what_am_i_looking_at_server.py
 
-rosrun saam_object_detection what_am_i_looking_at_client.py
+rosrun liana_object_detection what_am_i_looking_at_client.py
