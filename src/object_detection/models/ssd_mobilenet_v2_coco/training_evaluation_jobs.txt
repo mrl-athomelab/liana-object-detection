@@ -1,0 +1,7 @@
+# From the src directory
+
+python object_detection/train.py --logtostderr --pipeline_config_path=/home/moeed/catkin_ws/src/liana_object_detection/src/object_detection/models/ssd_mobilenet_v2_coco/ssd_mobilenet_v2_liana.config --train_dir=/home/moeed/catkin_ws/src/liana_object_detection/src/object_detection/models/ssd_mobilenet_v2_coco/train
+
+python object_detection/eval.py --logtostderr --pipeline_config_path=/home/moeed/catkin_ws/src/liana_object_detection/src/object_detection/models/ssd_mobilenet_v2_coco/ssd_mobilenet_v2_liana.config --checkpoint_dir=/home/moeed/catkin_ws/src/liana_object_detection/src/object_detection/models/ssd_mobilenet_v2_coco/train --eval_dir=/home/moeed/catkin_ws/src/liana_object_detection/src/object_detection/models/ssd_mobilenet_v2_coco/eval
+
+tensorboard --logdir=/home/moeed/catkin_ws/src/liana_object_detection/src/object_detection/models/ssd_mobilenet_v2_coco

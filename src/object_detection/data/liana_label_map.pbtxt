@@ -1,0 +1,44 @@
+item {
+  id: 1
+  name: 'coffee'
+}
+
+item {
+  id: 2
+  name: 'blue_hype'
+}
+
+item {
+  id: 3
+  name: 'black_hype'
+}
+
+item {
+  id: 4
+  name: 'sprite'
+}
+
+item {
+  id: 5
+  name: 'coca_cola'
+}
+
+item {
+  id: 6
+  name: 'ketchup'
+}
+
+item {
+  id: 7
+  name: 'fanta'
+}
+
+item {
+  id: 8
+  name: 'milk'
+}
+
+item {
+  id: 9
+  name: 'cream'
+}
