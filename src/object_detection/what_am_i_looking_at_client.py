@@ -100,7 +100,7 @@ class image_feature:
     def __init__(self, topic):
         """Initialize ros publisher, ros subscriber"""
         # topic where we publish
-        self.image_pub = rospy.Publisher("/saam_object_detection/image_raw/compressed", CompressedImage)
+        self.image_pub = rospy.Publisher("/liana_object_detection/image_raw/compressed", CompressedImage)
         # self.bridge = CvBridge()
 
         # subscribed Topic
@@ -141,7 +141,7 @@ class image_feature:
 
 
 if __name__ == "__main__":
-    topic = '/camera/rgb/image_raw/compressed'
+    topic = '/usb_cam/image_raw/compressed'
     ic = image_feature(topic)
 
     rospy.init_node('what_am_i_looking_at_client', anonymous=True)

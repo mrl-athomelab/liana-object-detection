@@ -12,7 +12,7 @@ import os
 
 
 os.environ["CUDA_VISIBLE_DEVICES"] = ""
-model_name = 'ssd_mobilenet_v1_coco_2017_11_17'
+model_name = 'ssd_mobilenet_v2_coco_2018_03_29'
 #model_name = 'faster_rcnn_resnet50_coco_2018_01_28'
 detector = detection.ObjectDetection(model_name)
 
