@@ -118,7 +118,7 @@ class ObjectDetection:
         self.config.gpu_options.allow_growth = True
         rp = rospkg.RosPack()
         SCRIPT_PATH = os.path.join(rp.get_path(
-            "liana-object-detection"), "src", "object_detection")
+            "liana_object_detection"), "src", "object_detection")
         MODEL_PATH = os.path.join(SCRIPT_PATH, 'models', 'ssd_mobilenet_v2_coco', self.MODEL_NAME)
 
         # Path to frozen detection graph. This is the actual model
