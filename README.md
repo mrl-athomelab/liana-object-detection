@@ -1,9 +1,11 @@
+# Liana Object Detection
+
 This object detection package has been developed and tested on ROS Kinetic.
 It is based on the Tensorflow object detection API and runs a 
 Single Shot Detector with MobileNets, pretrained on the COCO dataset.
 
 Please refer to the Tensorflow object detection API installation guide 
-and install the API before using this package. 
+and install the API before using this package.
 
 usage:
 
